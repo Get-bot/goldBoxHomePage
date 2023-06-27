@@ -1,10 +1,7 @@
-import styles from "./header.module.css";
-import Navbar
- from "./navbar";
+import Navbar from "../navbar/navbar";
 const Header = (): JSX.Element => {
   return (
-    <header className={styles.header}>
-      <h1 className={styles.title}>골드박스 웹 홍보 페이지</h1>
+    <header>
       <Navbar/>
     </header>
   );
